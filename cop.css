@@ -1,0 +1,81 @@
+p {
+    color: red;
+    font-family: Roboto, Arial;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.bo:hover {
+    text-decoration: underline;
+}
+p:hover {
+    color: lightblue;
+}
+p:active {
+    color: orange;
+}
+.linkmmb {
+    text-align: center;
+    display: block;
+}
+.linkmmb:hover {
+    color: lightblue;
+}
+.linkmmb:active {
+    color: orange;
+}
+.nut {
+    color: white;
+    font-size: 50px;
+    font-family: Roboto, Arial;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(4,217,255);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+.shit {
+    margin-top: 200px;
+}
+
+.an {
+    height: 50px;
+    border-radius: 50%;
+}
+.nut:hover {
+    background-color: #0088AF;
+}
+.nut:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    background-color: orange;
+}
+.mmb2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 1px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0,15);
+    margin-bottom: 1000px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.mmb2:hover {
+    width: 300px;
+}
+.Tran:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
